@@ -97,7 +97,7 @@
                 <artifactId>site-maven-plugin</artifactId>
                 <version>${site.maven.plugin.version}</version>
                 <configuration>
-                    <message>Maven artifacts for ${project.version}</message>
+                    <message>Creating site for ${project.artifactId} ${project.version}</message>
                     <noJekyll>true</noJekyll>
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/mvn-repo</branch>
@@ -106,6 +106,7 @@
                     </includes>
                     <repositoryName>${github.repo}</repositoryName>
                     <repositoryOwner>${github.user}</repositoryOwner>
+                    <oauth2Token>${token}</oauth2Token>
                 </configuration>
                 <executions>
                     <execution>
