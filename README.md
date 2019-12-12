@@ -4,8 +4,5 @@
  <img src="https://img.shields.io/badge/PRs-welcome-green.svg" align="left" />
 </div>
 
-# OpenHaBot
-This is NodeJS based implementation of openHAB Bot for Facebook Messenger
-
 # reactor-mdc
 This is MDC logging library for [Project Reactor](http://projectreactor.io)
