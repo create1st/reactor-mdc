@@ -19,7 +19,7 @@
         <site.maven.plugin.version>0.12</site.maven.plugin.version>
         <github.global.server>github</github.global.server>
         <github.user>create1st</github.user>
-        <github.repo>spring-boot-starter-mybatis</github.repo>
+        <github.repo>reactor-mdc</github.repo>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
