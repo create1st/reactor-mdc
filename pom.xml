@@ -10,7 +10,7 @@
 
     <properties>
         <reactor.version>3.3.1.RELEASE</reactor.version>
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <logback.version>1.2.3</logback.version>
         <jupiter.version>5.5.2</jupiter.version>
         <maven.compiler.source>1.8</maven.compiler.source>
